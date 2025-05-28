@@ -2,8 +2,8 @@
 
 --------------------------------------------------------------------------------
 <p align="center">
-	<img src="https://img.shields.io/badge/stars-9000+-blue.svg"/>
-	<img src="https://img.shields.io/badge/forks-1800+-blue.svg"/>
+	<img src="https://img.shields.io/badge/stars-10000+-blue.svg"/>
+	<img src="https://img.shields.io/badge/forks-1900+-blue.svg"/>
 	<img src="https://img.shields.io/badge/license-MIT-blue.svg"/>
 </p>
 
@@ -90,6 +90,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Official PyTorch Tutorials](https://github.com/pytorch/tutorials)
 - [Official PyTorch Examples](https://github.com/pytorch/examples)
 - [Dive Into Deep Learning with PyTorch](https://github.com/d2l-ai/d2l-en)
+- [How to Read Pytorch](https://github.com/davidbau/how-to-read-pytorch)
 - [Minicourse in Deep Learning with PyTorch (Multi-language)](https://github.com/Atcold/pytorch-Deep-Learning-Minicourse)
 - [Practical Deep Learning with PyTorch](https://github.com/ritchieng/deep-learning-wizard)
 - [Deep Learning Models](https://github.com/rasbt/deeplearning-models)
@@ -108,19 +109,47 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Semantic Search with PyTorch](https://github.com/kuutsav/information-retrieval)
 
 ## <a name='LargeLanguageModels'></a>Large Language Models (LLMs)
+- LLM Tutorials
+  - [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch)
+  - [Hugginface LLM Training Book, a collection of methodologies to help with successful training of large language models](https://github.com/huggingface/llm_training_handbook)
 - General
+  - [Starcoder 2, family of code generation models](https://github.com/bigcode-project/starcoder2)
+  - [GPT Fast, fast and hackable pytorch native transformer inference](https://github.com/pytorch-labs/gpt-fast)
+  - [Mixtral Offloading, run Mixtral-8x7B models in Colab or consumer desktops](https://github.com/dvmazur/mixtral-offloading)
   - [Llama](https://github.com/facebookresearch/llama)
+  - [Llama Recipes](https://github.com/facebookresearch/llama-recipes)
+  - [TinyLlama](https://github.com/jzhang38/TinyLlama)
   - [Mosaic Pretrained Transformers (MPT)](https://github.com/mosaicml/llm-foundry)
+  - [VLLM, high-throughput and memory-efficient inference and serving engine for LLMs](https://github.com/vllm-project/vllm)
   - [Dolly](https://github.com/databrickslabs/dolly)
   - [Vicuna](https://github.com/lm-sys/FastChat)
+  - [Mistral 7B](https://github.com/mistralai/mistral-src)
+  - [BigDL LLM, library for running LLM (large language model) on Intel XPU (from Laptop to GPU to Cloud) using INT4 with very low latency1 (for any PyTorch model)](https://github.com/intel-analytics/BigDL)
+  - [Simple LLM Finetuner](https://github.com/lxe/simple-llm-finetuner)
+  - [Petals, run LLMs at home, BitTorrent-style, fine-tuning and inference up to 10x faster than offloading](https://github.com/bigscience-workshop/petals)
 - Japanese
   - [Japanese Llama](https://github.com/masa3141/japanese-alpaca-lora)
   - [Japanese GPT Neox and Open Calm](https://github.com/hppRC/llm-lora-classification)
 - Chinese
+  - [Chinese Llamma-2 7B](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b)
   - [Chinese Vicuna](https://github.com/Facico/Chinese-Vicuna)
-
+- Retrieval Augmented Generation (RAG)
+  - [LlamaIndex, data framework for your LLM application](https://github.com/run-llama/llama_index)
+- Embeddings
+  - [ChromaDB, open-source embedding database](https://github.com/chroma-core/chroma)
+- Applications
+  - [Langchain, building applications with LLMs through composability](https://github.com/langchain-ai/langchain)
+- Finetuning
+  - [Huggingface PEFT, State-of-the-art Parameter-Efficient Fine-Tuning](https://github.com/huggingface/peft)
+- Training
+  - [Higgsfield, Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters](https://github.com/higgsfield-ai/higgsfield)
+- Quantization
+  - [AutoGPTQ, easy-to-use LLMs quantization package with user-friendly apis, based on GPTQ algorithm](https://github.com/PanQiWei/AutoGPTQ)
 
 ## <a name='TabularData'></a>Tabular Data
+- [PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning](https://github.com/pyg-team/pytorch-frame)
+- [Pytorch Tabular,standard framework for modelling Deep Learning Models for tabular data](https://github.com/manujosephv/pytorch_tabular)
+- [Tab Transformer](https://github.com/lucidrains/tab-transformer-pytorch)
 - [PyTorch-TabNet: Attentive Interpretable Tabular Learning](https://github.com/dreamquark-ai/tabnet)
 - [carefree-learn: A minimal Automatic Machine Learning (AutoML) solution for tabular datasets based on PyTorch](https://github.com/carefree0910/carefree-learn)
 
@@ -147,9 +176,13 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 ## <a name='ObjectDetection'></a>Object Detection
 - [MMDetection Object Detection Toolbox](https://github.com/open-mmlab/mmdetection)
 - [Mask R-CNN Benchmark: Faster R-CNN and Mask R-CNN in PyTorch 1.0](https://github.com/facebookresearch/maskrcnn-benchmark)
+- [YOLO-World](https://github.com/AILab-CVC/YOLO-World)
 - [YOLOS](https://github.com/hustvl/YOLOS)
 - [YOLOF](https://github.com/megvii-model/YOLOF)
 - [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+- [YOLOv10](https://github.com/THU-MIG/yolov10)
+- [YOLOv9](https://github.com/WongKinYiu/yolov9)
+- [YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Yolov7](https://github.com/WongKinYiu/yolov7)
 - [YOLOv6](https://github.com/meituan/YOLOv6)
 - [Yolov5](https://github.com/ultralytics/yolov5)
@@ -361,6 +394,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [Pathfinder Discovery Networks for Neural Message Passing](https://github.com/benedekrozemberczki/PDN)
 - [SSSNET: Semi-Supervised Signed Network Clustering](https://github.com/SherylHYX/SSSNET_Signed_Clustering)
 - [MagNet: A Neural Network for Directed Graphs](https://github.com/matthew-hirn/magnet)
+- [PyTorch Geopooling: Geospatial Pooling Modules for Neural Networks in PyTorch](https://github.com/ybubnov/torch_geopooling)
 
 ## <a name='Sorting'></a>Sorting
 - [Stochastic Optimization of Sorting Networks via Continuous Relaxations](https://github.com/ermongroup/neuralsort)
@@ -372,6 +406,7 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 ## <a name='Multi-taskLearning'></a>Multi-task Learning
 - [Hierarchical Multi-Task Learning Model](https://github.com/huggingface/hmtl)
 - [Task-based End-to-end Model Learning](https://github.com/locuslab/e2e-model-learning)
+- [torchMTL: A lightweight module for Multi-Task Learning in pytorch](https://github.com/chrisby/torchMTL)
 
 ## <a name='GANsVAEsandAEs'></a>GANs, VAEs, and AEs
 - [BigGAN: Large Scale GAN Training for High Fidelity Natural Image Synthesis](https://github.com/ajbrock/BigGAN-PyTorch)
@@ -626,6 +661,9 @@ This is a curated list of tutorials, projects, libraries, videos, papers, books 
 - [torchvision: A package consisting of popular datasets, model architectures, and common image transformations for computer vision.](https://github.com/pytorch/vision)
 - [Poutyne: A Keras-like framework for PyTorch and handles much of the boilerplating code needed to train neural networks.](https://github.com/GRAAL-Research/poutyne)
 - [torchensemble: Scikit-Learn like ensemble methods in PyTorch](https://github.com/AaronX121/Ensemble-Pytorch)
+- [TorchFix - a linter for PyTorch-using code with autofix support](https://github.com/pytorch-labs/torchfix)
+- [pytorch360convert - Differentiable image conversions between 360° equirectangular images, cubemaps, and perspective projections](https://github.com/ProGamerGov/pytorch360convert)
+
 
 ## <a name='PyTorchVideoTutorials'></a>PyTorch Video Tutorials
 - [PyTorch Zero to All Lectures](http://bit.ly/PyTorchVideo)
